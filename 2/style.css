@@ -1,0 +1,68 @@
+canvas {
+    position: relative;
+}
+
+.select {
+    position: absolute;
+}
+
+.panel{
+    position: absolute;
+    padding: 20px 30px;
+    background: white;
+    border: 3px solid #39c5bb;
+    border-radius: 3px;
+    text-align: center;
+    z-index: 5;
+}
+
+.panel button {
+    background: white;
+    border: 3px solid #39c5bb;
+    border-radius: 3px;
+    outline: none;
+    padding: 0 10px;
+    margin: 10px auto;
+    display: block;
+    cursor: pointer;
+}
+
+.panel button:hover {
+    background: #39c5bb;
+}
+
+.questions {
+    width: 80%;
+    height: 80%;
+    overflow: auto;
+    padding: 20px 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 3px solid #39c5bb;
+    border-radius: 3px;
+    z-index: 5;
+}
+
+.questions .mainButton {
+    background: white;
+    border: 3px solid #39c5bb;
+    border-radius: 3px;
+    outline: none;
+    padding: 0 10px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.questions .mainButton:hover {
+    background: #39c5bb;
+}
+
+.questionWrapper {
+    background-color: whitesmoke;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
