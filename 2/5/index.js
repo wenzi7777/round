@@ -68,11 +68,11 @@ questions.push(new Question(document.querySelector('.questions'), '(6)、口唇�
 questions.push(new Question(document.querySelector('.questions'), '(6)、脾者（ ）也，治（ ），常以四时长四脏，各十八日寄治，不得独主于时也。', '', ['土', '中央'], 'fillInTheBlank'))
 
 // single choice
-questions.push(new Question(document.querySelector('.questions'), '(7)、主统血的是（ ）', ['肾', '脾', '小肠', '肺'], [''], 'singleChoice'))
-questions.push(new Question(document.querySelector('.questions'), '(8)、脾之华在（ ）', ['面', '毛', '唇', '爪'], [''], 'singleChoice'))
-questions.push(new Question(document.querySelector('.questions'), '(9)、脾的主要生理功能是（ ）', ['藏血', '统血', '血脉'], [''], 'singleChoice'))
+questions.push(new Question(document.querySelector('.questions'), '(7)、主统血的是（ ）', ['肾', '脾', '小肠', '肺'], ['脾'], 'singleChoice'))
+questions.push(new Question(document.querySelector('.questions'), '(8)、脾之华在（ ）', ['面', '毛', '唇', '爪'], ['唇'], 'singleChoice'))
+questions.push(new Question(document.querySelector('.questions'), '(9)、脾的主要生理功能是（ ）', ['藏血', '统血', '血脉'], ['统血'], 'singleChoice'))
 questions.push(new Question(document.querySelector('.questions'), '(10)、脾主运化是指脾能够（ ）', ['运化水液', '运化水谷', '化生血液', '化生气血', '运化水谷和水液'], ['运化水谷和水液'], 'singleChoice'))
-questions.push(new Question(document.querySelector('.questions'), '(11)、心有所忆谓之（ ）', ['意', '志', '思', '虑'], [''], 'singleChoice'))
+questions.push(new Question(document.querySelector('.questions'), '(11)、心有所忆谓之（ ）', ['意', '志', '思', '虑'], ['意'], 'singleChoice'))
 
 document.querySelector('#submitQuestions').addEventListener('click', () => {
     questions.forEach(question => {
